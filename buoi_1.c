@@ -1,10 +1,25 @@
-#include <stdio.h>
-int main() {
-      int a, b;
-      printf("nhap a: ");
-      scanf("%d",&a);
-      printf("nhap b: ");
-      scanf("%d", &b);
-      printf("tong a và b là: %d", a + b);
-      return 0;
+// khai bao thu vien (preprocessor tien xu ly)
+// stdio= standard input output (thu vien nhap xuat chuan)
+// #include "stdio.h"
+#include <stdio.h> "stdio"
+
+// return_value_type function_name()()
+int main (){ 
+// code o day
+// ham main la ham dac biet trong C. chuong trinh se tu goi ham main khi chay
+
+// ham printf la ham duoc viet san trong thu vien stdio.h. "Hello world" la doi so (argument) cua ham
+ 
+ printf("\Hello World\n");
+
+ // Yeu cau nhap vao 2 so a, b sau do in ra man hinh tong 2 so
+ int a, b; // int la integer la kieu so nguyen
+ printf("nhap vao so a:");
+ 
+ scanf("%d", &a); // d la digit
+ printf("nhap vao so b:");
+ scanf("%d", &b);
+
+printf("Tong cua a va b la: %d", a+b); 
+ return 0;
 }
