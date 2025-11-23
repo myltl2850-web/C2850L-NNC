@@ -1,9 +1,5 @@
-// khai bao thu vien (preprocessor tien xu ly)
-// stdio= standard input output (thu vien nhap xuat chuan)
-// #include "stdio.h"
 #include <stdio.h> "stdio"
 
-// return_value_type function_name()()
 int main (){ 
 // code o day
 // ham main la ham dac biet trong C. chuong trinh se tu goi ham main khi chay
